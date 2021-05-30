@@ -1,0 +1,165 @@
+body{
+  background: url('image/bg-page.jpg') #656a6f repeat center top;
+}
+.App {
+  text-align: center;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.8) 100%);
+  min-height: 100%;
+  width: 100%;
+  padding-top: 3%;
+}
+
+.main-box{
+  background-image: -webkit-linear-gradient(bottom, rgba(25,37,39,0.4) -20%,rgba(10,16,17,0.4) 120%);
+  /* box-shadow: inset 0px 1px 0px 2px rgb(0 0 0 / 40%); */
+  width: 40%;
+  margin: 0 auto;
+  /* height: 600px; */
+  /* padding-top: 5%; */
+  /* padding-bottom: 5%; */
+  border-top: 80px solid #0a1013;
+  border-bottom: 80px solid #0a1013;
+  border-left: 150px solid #0a1013;
+  border-right: 150px solid #0a1013;
+  border-radius: 15px;
+  box-shadow: 0px 0px 16px 14px rgb(0 0 0 / 40%);
+}
+
+.sub-box{
+  background-color: #1C1545;
+  
+  border: 20px solid #000;
+  /* margin-right: 8%; */
+  /* margin-left: 8%; */
+  padding: 25%
+}
+
+.main-box h3{
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #aea162;
+  font-size: 30px;
+  text-shadow: 0 0 3px #d7c874;
+  line-height: 140%;  
+}
+
+.button{
+  cursor: pointer;
+}
+
+.result{
+  margin-top: 10%;
+  padding-top: 5%;
+}
+
+.slipfeed:before{
+  content: "";
+  position: relative;
+  display: block;
+  height: 28px;
+  width: 586px;
+  margin: auto;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0c0d0e), color-stop(45%, #0c0d0e), color-stop(55%, #2a2826), color-stop(100%, #1b1a18));
+  background-image: -webkit-linear-gradient(top, #0c0d0e 0%,#0c0d0e 45%,#2a2826 55%,#1b1a18 100%);
+  background-image: -moz-linear-gradient(top, #0c0d0e 0%,#0c0d0e 45%,#2a2826 55%,#1b1a18 100%);
+  background-image: -o-linear-gradient(top, #0c0d0e 0%,#0c0d0e 45%,#2a2826 55%,#1b1a18 100%);
+  background-image: linear-gradient(top, #0c0d0e 0%,#0c0d0e 45%,#2a2826 55%,#1b1a18 100%);
+  -webkit-box-shadow: rgb(0 0 0 / 50%) 0px 0px 20px 1px, rgb(0 0 0 / 50%) 0px 0px 0px 1px, rgb(0 0 0 / 80%) 0 0 10px 10px inset;
+  -moz-box-shadow: rgba(0,0,0,0.5) 0px 0px 20px 1px,rgba(0,0,0,0.5) 0px 0px 0px 1px,rgba(0,0,0,0.8) 0 0 10px 10px inset;
+  box-shadow: rgb(0 0 0 / 50%) 0px 0px 20px 1px, rgb(0 0 0 / 50%) 0px 0px 0px 1px, rgb(0 0 0 / 80%) 0 0 10px 10px inset;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.slip {
+  position: relative;
+  display: block;
+  width: 580px;
+  height: 550px;
+  margin: auto;
+  top: -14px;
+  overflow: hidden;
+}
+
+.paper .padder {
+  padding: 2.5em 1.25em 0 1.25em;
+}
+.paper {
+  font-size: 1em;
+  position: relative;
+  display: block;
+  background: url( 'image/bg-paper.png') center top repeat #fff;
+  width: 540px;
+  left: 20px;
+  margin-bottom: 34px;
+  -webkit-box-shadow: rgb(0 0 0 / 80%) 0px 2px 3px 1px, rgb(0 0 0 / 40%) 0px 10px 20px 6px;
+  -moz-box-shadow: rgba(0,0,0,0.8) 0px 2px 3px 1px,rgba(0,0,0,0.4) 0px 10px 20px 6px;
+  box-shadow: rgb(0 0 0 / 80%) 0px 2px 3px 1px, rgb(0 0 0 / 40%) 0px 10px 20px 6px;
+}
+
+.paper:after {
+  content: "";
+  z-index: 10;
+  position: absolute;
+  display: block;
+  width: 540px;
+  bottom: -24px;
+  height: 24px;
+  background: transparent url('image//zigzag-trim-border.png') center top repeat-x;
+}
+
+.padder h3{
+  font-size: 1.7em;
+}
+
+.advice,.datetime,.share,.ignore{
+  font-family: "FakeReceipt-Regular",monospace;
+  font-size: 1.5em;
+  padding: 0.625em 0 0.625em 0;
+  color: #121212;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+    clear: both;
+    display: block;
+    color: #2153A7;
+    font-size: 1.4em;
+}
+
+.animation {
+  height: auto;
+  /* visibility: visible; */
+  animation: mymove 3s none;
+ }
+ .noanimation{
+  /* height: 0;
+  visibility: hidden; */
+  bottom: 500px;
+ }
+
+  @keyframes mymove {
+    from { bottom: 500px;}
+    to { bottom: 0px;}
+  }
+  /* .animation:target {
+    transform: scaleY(1);
+  } */
+
+
+footer{
+  background-color: #121212;
+  color: #fff;
+  padding: 1%;
+  text-align: center;
+  margin-top: 5%;
+}
