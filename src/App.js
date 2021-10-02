@@ -37,7 +37,7 @@ function App() {
       <div className="main-box">
         <div className="sub-box">
           <h3 className="title">ADVICE SLIP GENERATER</h3>
-          <h3 className="button" onClick={getAdvice}>GENERATE</h3>
+          <h3 className="button generate-button" onClick={getAdvice}>GENERATE</h3>
         </div>
       </div>
 

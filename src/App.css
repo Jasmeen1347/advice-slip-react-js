@@ -163,3 +163,7 @@ footer{
   text-align: center;
   margin-top: 5%;
 }
+
+.generate-button{
+  border: 2px solid;
+}
